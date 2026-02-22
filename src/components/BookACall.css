@@ -1,0 +1,76 @@
+.main-bookacall-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.second-bookacall-container {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1200px) {
+  .second-bookacall-container {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .second-bookacall-container {
+    width: 95%;
+  }
+}
+.third-bookacall-container {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bookacall-header {
+  font-size: clamp(1.5rem, 4vw, 2.2rem);
+  font-weight: 500;
+  color: var(--text-color, #fff);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.bookacall-btn {
+  align-items: center;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  border: 0px solid rgb(229, 231, 235);
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: normal;
+  line-height: 14px;
+  min-height: 32px;
+  outline-offset: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-wrap-mode: nowrap;
+  transition: color 0.2s linear, background-color 0.2s linear,
+    border-color 0.2s linear;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.bookacall-btn:hover,
+.bookacall-btn:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,85 @@
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-learn-more {
+  align-items: center;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  border: 0px solid rgb(229, 231, 235);
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: normal;
+  line-height: 14px;
+  min-height: 32px;
+  outline-offset: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-wrap-mode: nowrap;
+  transition: color 0.2s linear, background-color 0.2s linear,
+    border-color 0.2s linear;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.btn-learn-more:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* icon inside buttons */
+.btn-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  width: 12px;
+  height: auto;
+}
+
+.btn-contact-us {
+  align-items: center;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 40px;
+  border: 0px solid rgb(229, 231, 235);
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: normal;
+  line-height: 14px;
+  min-height: 32px;
+  outline-offset: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-wrap-mode: nowrap;
+  transition: color 0.2s linear, background-color 0.2s linear,
+    border-color 0.2s linear;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.btn-contact-us:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
